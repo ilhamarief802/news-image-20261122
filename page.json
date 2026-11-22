@@ -49,10 +49,18 @@
   {
    "who": "EUROPE",
    "kicker": "NEWS",
-   "title": "Thousands march in Lisbon as living costs fuel anger",
-   "summary": "The protest ⁠followed weeks of unrest, including housing activists' tent camps in ⁠Lisbon and Porto, and comes amid a broader wave of demonstrations across Europe over ‌living costs and housing",
-   "src": "The Hindu",
-   "utc": "22 NOV 2026 06:58 +0530"
+   "title": "Kate's 'road to recovery' and 'Brave princess'",
+   "summary": "Catherine, Princess of Wales is pictured on several front pages following news of her new documentary.",
+   "src": "BBC UK",
+   "utc": "22 NOV 2026 00:43 GMT"
+  },
+  {
+   "who": "OCEANIA",
+   "kicker": "SPORT",
+   "title": "Victorian Greens win injunction over how-to-vote cards mimicking party's branding but…",
+   "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan's cards instructed people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The…",
+   "src": "The Guardian",
+   "utc": "22 NOV 2026 02:08 GMT"
   },
   {
    "who": "WORLD",
@@ -69,21 +77,18 @@
    "summary": "Mounting questions about a Labor MP's financial affairs and confusion about whose job it is to check politicians' declarations to parliament, dominate the last sitting week of parliament.",
    "src": "ABC (Australia)",
    "utc": "22 NOV 2026 00:02 +0000"
-  },
-  {
-   "who": "AMERICAS",
-   "kicker": "NEWS",
-   "title": "California train burglars carefully executed heists for ‘staggering' $22m haul",
-   "summary": "US justice department brings charges against group after at least 36 trains burglarized for shoes and tools Fourteen people in southern California have been accused of burglarizing more than $22m…",
-   "src": "The Guardian",
-   "utc": "22 NOV 2026 00:20 GMT"
   }
  ],
  "briefs": [
   [
    "Asia",
-   "India declare on 720-9 with first-innings lead of 352 over New Zealand",
+   "New Zealand cling on in Wellington after India build mammoth lead",
    "CNA"
+  ],
+  [
+   "Europe",
+   "Kate's 'road to recovery' and 'Brave princess'",
+   "BBC UK"
   ],
   [
    "Middle East",
@@ -97,7 +102,7 @@
   ],
   [
    "Oceania",
-   "Remote island's 30,000-hectare carbon forestry project begins",
+   "30,000-hectare carbon forestry project shoots up on remote island",
    "ABC (Australia)"
   ],
   [
@@ -106,23 +111,18 @@
    "The Hindu"
   ],
   [
-   "Middle East",
-   "Bahrain says Iran struck industrial site as tankers hit in Hormuz",
-   "The Hindu"
-  ],
-  [
    "Oceania",
-   "Coles appeals ACCC decision blocking Kalgoorlie supermarket",
+   "Roast chicken sales scrutinised as Coles appeals ACCC's ban on outback store",
    "ABC (Australia)"
   ],
   [
    "Oceania",
-   "Live: Piastri takes Vegas penalty as reigning champ predicts 'chaos' in the…",
+   "Live: Oscar Piastri snaps at team, climbs from 17th to third in thrilling…",
    "ABC (Australia)"
   ],
   [
    "Oceania",
-   "Victorian Greens seek urgent injunction over how-to-vote cards mimicking…",
+   "Victorian Greens win injunction over how-to-vote cards mimicking party's…",
    "The Guardian"
   ],
   [
