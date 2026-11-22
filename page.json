@@ -21,39 +21,15 @@
    "utc": "22 NOV 2026 08:47 +0800"
   },
   {
-   "who": "WORLD",
-   "kicker": "DIPLOMACY",
-   "title": "‘Two rulers, one fort': Pakistan Minister invokes Humayun, Sher Shah at SCO Civilisational…",
-   "summary": "‘This [Purana] Qila, where we are sitting, is in itself a story; a fort, whose foundation was laid by Humayun, who had a descent from the Timurid [dynasty] linkage.. came from Central Asia; and, Sher…",
-   "src": "The Hindu",
-   "utc": "22 NOV 2026 04:05 +0530"
-  }
- ],
- "cards": [
-  {
-   "who": "OCEANIA",
-   "kicker": "DIPLOMACY",
-   "title": "'They are wrong': Defence minister denies US report on AUKUS submarines",
-   "summary": "Richard Marles rebuffs reports the AUKUS agreement to supply nuclear-powered submarines to Australia would diminish the US Navy for \"many years\".",
-   "src": "ABC (Australia)",
-   "utc": "22 NOV 2026 00:07 +0000"
-  },
-  {
    "who": "AFRICA",
    "kicker": "NEWS",
    "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
    "summary": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
    "src": "BBC World",
    "utc": "22 NOV 2026 00:10 GMT"
-  },
-  {
-   "who": "EUROPE",
-   "kicker": "NEWS",
-   "title": "Kate's 'road to recovery' and 'Brave princess'",
-   "summary": "Catherine, Princess of Wales is pictured on several front pages following news of her new documentary.",
-   "src": "BBC UK",
-   "utc": "22 NOV 2026 00:43 GMT"
-  },
+  }
+ ],
+ "cards": [
   {
    "who": "OCEANIA",
    "kicker": "SPORT",
@@ -71,30 +47,39 @@
    "utc": "22 NOV 2026 02:58 +0530"
   },
   {
-   "who": "OCEANIA",
+   "who": "EUROPE",
    "kicker": "NEWS",
-   "title": "Last sitting week of year turns into one WA government may prefer to forget",
-   "summary": "Mounting questions about a Labor MP's financial affairs and confusion about whose job it is to check politicians' declarations to parliament, dominate the last sitting week of parliament.",
+   "title": "The Papers: Kate's 'road to recovery' and 'Brave princess'",
+   "summary": "Catherine, Princess of Wales is pictured on several front pages following news of her new documentary.",
+   "src": "BBC UK",
+   "utc": "22 NOV 2026 00:43 GMT"
+  },
+  {
+   "who": "OCEANIA",
+   "kicker": "JUSTICE",
+   "title": "Greens win court fight against Prahran independent how to-vote-cards",
+   "summary": "The Greens took independent candidate Tosh-Jake Finnigan to the Supreme Court, arguing they were imitating the minor party's colours and font.",
    "src": "ABC (Australia)",
-   "utc": "22 NOV 2026 00:02 +0000"
+   "utc": "22 NOV 2026 02:12 +0000"
+  },
+  {
+   "who": "AMERICAS",
+   "kicker": "NEWS",
+   "title": "California train burglars carefully executed heists for ‘staggering' $22m haul",
+   "summary": "US justice department brings charges against group after at least 36 trains burglarized for shoes and tools Fourteen people in southern California have been accused of burglarizing more than $22m…",
+   "src": "The Guardian",
+   "utc": "22 NOV 2026 00:20 GMT"
+  },
+  {
+   "who": "WORLD",
+   "kicker": "SPORT",
+   "title": "Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic…",
+   "summary": "Controversial figure frequently took positions against drug use, abortion and homosexuality, but in later years supported legislation expunging homosexual convictions Get our daily political email …",
+   "src": "The Guardian",
+   "utc": "22 NOV 2026 00:26 GMT"
   }
  ],
  "briefs": [
-  [
-   "Asia",
-   "New Zealand cling on in Wellington after India build mammoth lead",
-   "CNA"
-  ],
-  [
-   "Europe",
-   "Kate's 'road to recovery' and 'Brave princess'",
-   "BBC UK"
-  ],
-  [
-   "Middle East",
-   "Bahrain says Iranian attack hits industrial facility as air defences…",
-   "CNA"
-  ],
   [
    "Oceania",
    "Allegedly stolen car crashes into NT Police housing, 12yo boy among arrests",
@@ -117,7 +102,7 @@
   ],
   [
    "Oceania",
-   "Live: Oscar Piastri snaps at team, climbs from 17th to third in thrilling…",
+   "Piastri third, snaps at McLaren team, in Vegas GP with 352 overtakes",
    "ABC (Australia)"
   ],
   [
@@ -129,6 +114,21 @@
    "Europe",
    "Wallabies coach Kiss lauds defensive effort after win over Wales",
    "CNA"
+  ],
+  [
+   "Oceania",
+   "Greens win court fight against Prahran independent how to-vote-cards",
+   "ABC (Australia)"
+  ],
+  [
+   "Middle East",
+   "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
+   "Al Jazeera"
+  ],
+  [
+   "Oceania",
+   "Government launches inquiry into peptides amid surge in hospital visits",
+   "ABC (Australia)"
   ]
  ]
 }
