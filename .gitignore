@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+out/
+news22.json
+candidates.json
+verified.json
+feeds/
+land110.json.bak
