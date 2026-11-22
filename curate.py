@@ -224,9 +224,13 @@ def main():
         return 2
 
     ok = ok[:MAX_STORIES]
+    # A grid cell with no standfirst reads as an unfinished page, so the grid is
+    # filled with stories the wire gave copy for; the others still go on the
+    # page, in the briefs column, where a headline alone is the right size.
+    rich = [r for r in ok if len(clean(r.get("summary") or "")) >= 40]
     taken = set()
-    leads = pick(ok, 3, taken)
-    cards = pick([r for r in ok if r not in leads], 6, taken)
+    leads = pick(rich if len(rich) >= 3 else ok, 3, taken)
+    cards = pick([r for r in (rich if len(rich) >= 6 else ok) if r not in leads], 6, taken)
     rest = [r for r in ok if r not in leads and r not in cards]
     briefs = [[region_of(r["feed"], r["title"]).title(),
                short(r["title"], 78), NICE_SRC.get(r["feed"], r["feed"])]
