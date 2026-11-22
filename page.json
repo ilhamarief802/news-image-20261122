@@ -1,141 +1,67 @@
 {
  "date": "SUNDAY 22 NOVEMBER 2026",
- "slug": "SUNDAY 22 NOVEMBER 2026",
- "strap": "The day in one page · eight stories, six continents' worth of desks · every hour given in UTC",
+ "issue": "No. 22.11.26",
+ "title": "One page: the world on 22 November 2026",
+ "strap": "The day's verified stories, each with the desk that filed it and the exact time that desk stamped on the story. Nothing before the day, nothing invented.",
  "leads": [
   {
-   "region": "UKRAINE · EUROPE",
-   "place": "KRYVYI RIH",
-   "hour": "16:35 UTC",
-   "head": "Missile strike hits Zelensky's home city",
-   "body": "A Russian ballistic missile attack on the centre of President Volodymyr Zelensky's hometown killed two people and wounded 60, local officials said. Hours later he restated Ukraine's wish to join NATO.",
-   "tag": "2 killed · 60 wounded",
-   "src": "Al Jazeera · France 24 · Arab News",
-   "pin": [
-    48.0,
-    33.4
-   ]
+   "who": "AMERICAS",
+   "kicker": "CONFLICT",
+   "title": "11 killed in burst of violence in northern Mexico after capture of cartel leader Meza Flores",
+   "summary": "Flores climbed the cartel ranks to lead the Beltrán-Leyva cartel and later became the leader of his own group, the Meza-Flores Transnational Criminal Organisation",
+   "src": "The Hindu",
+   "utc": "22 NOV 2026 02:19 +0530"
   },
   {
-   "region": "MEXICO · AMERICAS",
-   "place": "SINALOA",
-   "hour": "21:12 UTC",
-   "head": "Army seizes 'El Chapo Isidro'",
-   "body": "Fausto Isidro Meza Flores, on the FBI's ten-most-wanted list, was captured in a special-forces raid. Gunfights that followed across Sinaloa left at least 11 dead.",
-   "tag": "11 dead · 4 soldiers",
-   "src": "The New York Times · CBC · FT",
-   "pin": [
-    25.0,
-    -107.5
-   ]
+   "who": "WORLD",
+   "kicker": "DIPLOMACY",
+   "title": "‘Two rulers, one fort': Pakistan Minister invokes Humayun, Sher Shah at SCO Civilisational…",
+   "summary": "‘This [Purana] Qila, where we are sitting, is in itself a story; a fort, whose foundation was laid by Humayun, who had a descent from the Timurid [dynasty] linkage.. came from Central Asia; and, Sher…",
+   "src": "The Hindu",
+   "utc": "22 NOV 2026 04:05 +0530"
+  },
+  {
+   "who": "OCEANIA",
+   "kicker": "DIPLOMACY",
+   "title": "'They are wrong': Defence minister denies US report on AUKUS submarines",
+   "summary": "Richard Marles rebuffs reports the AUKUS agreement to supply nuclear-powered submarines to Australia would diminish the US Navy for \"many years\".",
+   "src": "ABC (Australia)",
+   "utc": "22 NOV 2026 00:07 +0000"
   }
  ],
  "cards": [
   {
-   "region": "BALTIC · EUROPE",
-   "place": "KALININGRAD",
-   "hour": "20:19 UTC",
-   "head": "Drone strike sets Russian cargo ship ablaze",
-   "body": "The Sparta II was hit in the eastern Baltic; Finland's PM said the war is 'spilling over' and tightened security.",
-   "src": "CNA · Arab News",
-   "pin": [
-    55.0,
-    20.5
-   ]
+   "who": "AFRICA",
+   "kicker": "NEWS",
+   "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+   "summary": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
+   "src": "BBC World",
+   "utc": "22 NOV 2026 00:10 GMT"
   },
   {
-   "region": "ISRAEL · MIDDLE EAST",
-   "place": "JERUSALEM",
-   "hour": "20:49 UTC",
-   "head": "Eisenkot invites Likud to coalition talks",
-   "body": "The centrist Yashar leader asked Netanyahu's Likud to begin a 'marathon' of talks on Sunday.",
-   "src": "France 24 · Arab News",
-   "pin": [
-    31.8,
-    35.2
-   ]
+   "who": "WORLD",
+   "kicker": "DIPLOMACY",
+   "title": "India, Bulgaria discuss bilateral ties, IMEC, Black Sea situation",
+   "summary": "‘Our teams have drawn up a detailed roadmap of cooperation, so we will be approving that today, and I think that will give a very clear pathway to our activities ahead,' said S. Jaishankar",
+   "src": "The Hindu",
+   "utc": "22 NOV 2026 02:58 +0530"
   },
   {
-   "region": "TÜRKİYE · CLIMATE",
-   "place": "ANTALYA",
-   "hour": "23:40 UTC",
-   "head": "COP31 drags into overtime",
-   "body": "Talks overran as Saudi Arabia led opposition to naming a fossil-fuel phase-out; the EU raised the prospect of no deal.",
-   "src": "Financial Times · BBC",
-   "pin": [
-    36.9,
-    30.7
-   ]
+   "who": "OCEANIA",
+   "kicker": "NEWS",
+   "title": "Last sitting week of year turns into one WA government may prefer to forget",
+   "summary": "Mounting questions about a Labor MP's financial affairs and confusion about whose job it is to check politicians' declarations to parliament, dominate the last sitting week of parliament.",
+   "src": "ABC (Australia)",
+   "utc": "22 NOV 2026 00:02 +0000"
   },
   {
-   "region": "NIGERIA · AFRICA",
-   "place": "BAYELSA",
-   "hour": "20:52 UTC",
-   "head": "Funeral boat capsizes, killing 24",
-   "body": "A boat carrying mourners to a funeral went down in Bayelsa State; search teams kept looking for the missing.",
-   "src": "Arab News",
-   "pin": [
-    4.8,
-    6.0
-   ]
-  },
-  {
-   "region": "HONG KONG · ASIA",
-   "place": "HONG KONG",
-   "hour": "00:00 UTC",
-   "head": "City votes for its Election Committee",
-   "body": "About 5,700 voters choose the 1,500-strong college that nominates candidates and picks the city's leader.",
-   "src": "South China Morning Post",
-   "pin": [
-    22.3,
-    114.2
-   ]
-  },
-  {
-   "region": "AUSTRALIA · OCEANIA",
-   "place": "CANBERRA",
-   "hour": "00:07 UTC",
-   "head": "Minister denies US report on AUKUS",
-   "body": "Australia's defence minister rejected a US press report on the submarine programme as 'wrong'.",
-   "src": "ABC News (Australia)",
-   "pin": [
-    -35.3,
-    149.1
-   ]
+   "who": "AMERICAS",
+   "kicker": "NEWS",
+   "title": "California train burglars carefully executed heists for ‘staggering' $22m haul",
+   "summary": "US justice department brings charges against group after at least 36 trains burglarized for shoes and tools Fourteen people in southern California have been accused of burglarizing more than $22m…",
+   "src": "The Guardian",
+   "utc": "22 NOV 2026 00:20 GMT"
   }
  ],
- "briefs": [
-  [
-   "UNITED STATES",
-   "FBI said to be investigating an apparent hack of its criminal database.",
-   "BBC"
-  ],
-  [
-   "CALIFORNIA",
-   "Burglars took a 'staggering' $22m from freight trains in carefully planned heists.",
-   "The Guardian"
-  ],
-  [
-   "MANILA",
-   "Quad, ASEAN-India and East Asia summits closed; India read out the takeaways.",
-   "The Hindu"
-  ],
-  [
-   "SOUTH ASIA",
-   "India and Bulgaria discussed IMEC and the Black Sea situation.",
-   "The Hindu"
-  ],
-  [
-   "IRAN · GULF",
-   "US Central Command denied Iran's claim that a missile damaged an F-16.",
-   "CNA"
-  ],
-  [
-   "CARDIFF",
-   "Australia beat Wales 29-26 in the autumn internationals.",
-   "BBC Sport"
-  ]
- ],
- "note": "Headlines are the wires' own words, trimmed. Hours are each report's own timestamp, UTC.",
- "issue": "No. 22.11.26"
+ "briefs": []
 }

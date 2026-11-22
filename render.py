@@ -193,17 +193,35 @@ def pin_for(item):
     return best[1] if best else None
 
 
+def _balance(blocks, ncol, half):
+    """Split measured briefs into ncol columns, filling each before the next."""
+    cols, cur, used = [], [], 0.0
+    for b in blocks:
+        if ncol == 2 and len(cols) == 0 and used + b[3] > half and cur:
+            cols.append(cur)
+            cur, used = [], 0.0
+        cur.append(b)
+        used += b[3] + 7
+    cols.append(cur)
+    return [c for c in cols if c]
+
+
+def _height(col):
+    return sum(10.8 + len(b[1]) * 11.8 + 2 + (9 if b[2] else 0) + 7 for b in col)
+
+
 # --- blocks --------------------------------------------------------------
 def lead(p, item, x, y, w, n):
     """One of the day's three biggest stories: kicker, headline, standfirst."""
     top = y
     p.wide(x, y, f'{n}. {item["who"]} \u00b7 {item["kicker"]}', f(SANS_B, 9.6), RED, track=1.15)
     y += 17
-    hf = f(SERIF_B, 31.0)
+    hf = f(SERIF_B, 29.0)
     for i, line in enumerate(p.wrap(item["title"], hf, w)):
         p.text(x, y + i * hf.size / S * 1.08, line, hf, INK)
     y += p.measure(item["title"], hf, w, lh=1.08) + 5
-    y = p.para(x, y, item["summary"], f(SANS, 15.0), w, BODY, 1.34, 4) + 6
+    if item.get("summary"):
+        y = p.para(x, y, item["summary"], f(SANS, 14.2), w, BODY, 1.30, 4) + 6
     # the outlet's clock, so the reader can tell when on 22 Nov it was filed
     p.wide(x, y, f'{item["src"].upper()} \u00b7 {item["utc"]} UTC', f(SANS, 8.6), DIM, track=0.35)
     y += 11
@@ -216,11 +234,12 @@ def card(p, item, x, y, w, n):
     top = y
     p.wide(x, y, f'{n}. {item["who"]} \u00b7 {item["kicker"]}', f(SANS_B, 8.6), RED, track=0.9)
     y += 14
-    hf = f(SERIF_B, 21.0)
+    hf = f(SERIF_B, 19.5)
     for i, line in enumerate(p.wrap(item["title"], hf, w)):
         p.text(x, y + i * hf.size / S * 1.09, line, hf, INK)
     y += p.measure(item["title"], hf, w, lh=1.09) + 3
-    y = p.para(x, y, item["summary"], f(SANS, 12.6), w, BODY, 1.33, 3) + 3
+    if item.get("summary"):
+        y = p.para(x, y, item["summary"], f(SANS, 11.9), w, BODY, 1.30, 3) + 3
     p.wide(x, y, f'{item["src"].upper()} \u00b7 {item["utc"]} UTC', f(SANS, 7.8), DIM, track=0.3)
     y += 10
     p.guard(f"card:{n}", x, top, w, y - top)
@@ -240,9 +259,9 @@ def main():
     df = f(SERIF_B, 59.0)
     p.text(M, 55, data["date"], df, INK)
     st = f(SERIF_I, 15.2)
-    p.para(M, 127, data["strap"], st, CW, BODY, 1.25, 1)
-    p.hline(150, w=3)
-    p.hline(154, w=1)
+    p.para(M, 121, data["strap"], st, CW, BODY, 1.22, 1)
+    p.hline(144, w=3)
+    p.hline(148, w=1)
 
     # --- lead pair --------------------------------------------------------
     gut = 26
@@ -251,7 +270,7 @@ def main():
     leads = data["leads"][:3]
     extra = list(data["leads"][3:])
     lw = (CW - gut * (len(leads) - 1)) / len(leads)
-    y0 = 168
+    y0 = 160
     hmax = 0
     for i, item in enumerate(leads):
         hmax = max(hmax, lead(p, item, M + i * (lw + gut), y0, lw, i + 1))
@@ -292,7 +311,7 @@ def main():
     y += 8
     has_digest = bool(data.get("briefs"))
     mw = 378.0 if has_digest else 560.0
-    floor = H - 34                     # the footer rule sits at H-24
+    floor = H - 30                     # the footer rule sits at H-24
     mh = floor - (y + 13)
     if mh < 120:
         raise SystemExit(f"layout: only {mh:.0f}px left for the map")
@@ -312,22 +331,65 @@ def main():
     bw = CW - mw - 20
     top = y + 15
     if has_digest:
-        colw = (bw - 14) / 2
+        # Briefs are set in as many columns as they need: two when there are
+        # more than four, so a long digest never runs into the footer, and one
+        # when a handful reads better down a single measure. Every brief is
+        # measured first, then the columns are balanced by height, and the block
+        # is registered at its true height so an overrun raises instead of
+        # quietly clipping into the footer (which it did, once).
         p.wide(bx, y, "ALSO ON THE DAY", f(SANS_B, 8.8), NAVY, track=1.2)
-        per = (len(data["briefs"]) + 1) // 2
-        for c in range(2):
+        briefs = list(data["briefs"])
+        ncol = 2 if len(briefs) > 4 else 1
+        gap = 14.0
+        colw = (bw - gap * (ncol - 1)) / ncol
+        wf, hf_ = f(SANS, 9.0), f(SANS_B, 7.8)
+        blocks = []
+        for who, what, src in briefs:
+            lines = p.wrap(what, wf, colw)[:5]
+            blocks.append((who.upper(), lines, src,
+                           10.8 + len(lines) * 11.8 + 2 + 9))
+        # balance: fill the first column until it would pass half the height
+        half = (mh - 6) / 2.0 if ncol == 2 else 1e9
+        cols, cur, used = [], [], 0.0
+        for b in blocks:
+            if ncol == 2 and len(cols) == 0 and used + b[3] > half and cur:
+                cols.append(cur)
+                cur, used = [], 0.0
+            cur.append(b)
+            used += b[3] + 7
+        cols.append(cur)
+        # Fit honestly: if the briefs cannot all be set in the band, set the ones
+        # that fit and say on the page how many more were filed. A silent clip
+        # would be a lie about the day's extent.
+        shown_max = len(blocks)
+        while shown_max > 1:
+            trial = _balance(blocks[:shown_max], ncol, half)
+            h = max(_height(c) for c in trial)
+            if h <= mh:
+                break
+            shown_max -= 1
+        omitted = len(blocks) - shown_max
+        cols = _balance(blocks[:shown_max], ncol, half)
+        if omitted:
+            cols[-1].append((f"and {omitted} more filed{'':s} on the day", [], "", 12.0))
+        last_bottom = {}
+        for c, col in enumerate(cols[:ncol]):
+            x = bx + c * (colw + gap)
             cy = top
-            for who, what, src in data["briefs"][c * per:(c + 1) * per]:
-                x = bx + c * (colw + 14)
-                p.wide(x, cy, who, f(SANS_B, 7.8), NAVY, track=0.6)
-                cy += 9.5
-                lines = p.wrap(what, f(SANS, 9.8), colw)
+            for who, lines, src, hgt in col:
+                p.wide(x, cy, who, hf_, RED, track=0.85)
+                cy += 10.8
                 for j, line in enumerate(lines):
-                    p.text(x, cy + j * 12.4, line, f(SANS, 9.8), BODY)
-                cy += len(lines) * 12.4 + 1
-                p.text(x, cy, src, f(SANS, 7.2), DIM)
-                cy += 15.5
-            p.guard(f"digest{c}", bx + c * (colw + 14), top, colw, cy - top)
+                    p.text(x, cy + j * 11.8, line, wf, BODY)
+                cy += len(lines) * 11.8 + 2
+                if src:
+                    p.text(x, cy, src, f(SANS, 6.9), DIM)
+                cy += 9 + 7
+            last_bottom[c] = cy - 7
+            p.guard(f"digest{c}", x, top, colw, cy - top - 7)
+        bottom = max(last_bottom.values())
+        if bottom > top + mh:
+            raise SystemExit(f"layout: digest ends at {bottom:.0f}, band ends at {top + mh:.0f}")
     else:
         p.wide(bx, y, "WHERE THE DAY HAPPENED", f(SANS_B, 8.8), NAVY, track=1.2)
         tally = {}
