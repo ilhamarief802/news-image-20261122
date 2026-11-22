@@ -48,27 +48,11 @@
   },
   {
    "who": "EUROPE",
-   "kicker": "SPORT",
-   "title": "Injury-hit France's run to final a tour de force, says Galthie",
-   "summary": "",
-   "src": "CNA",
-   "utc": "22 NOV 2026 08:38 +0800"
-  },
-  {
-   "who": "ASIA",
    "kicker": "NEWS",
-   "title": "India declare on 720-9 with first-innings lead of 352 over New Zealand",
-   "summary": "",
-   "src": "CNA",
-   "utc": "22 NOV 2026 08:41 +0800"
-  },
-  {
-   "who": "EUROPE",
-   "kicker": "SPORT",
-   "title": "Wallabies coach Kiss lauds defensive effort after win over Wales",
-   "summary": "",
-   "src": "CNA",
-   "utc": "22 NOV 2026 10:09 +0800"
+   "title": "Thousands march in Lisbon as living costs fuel anger",
+   "summary": "The protest ⁠followed weeks of unrest, including housing activists' tent camps in ⁠Lisbon and Porto, and comes amid a broader wave of demonstrations across Europe over ‌living costs and housing",
+   "src": "The Hindu",
+   "utc": "22 NOV 2026 06:58 +0530"
   },
   {
    "who": "WORLD",
@@ -77,6 +61,22 @@
    "summary": "‘Our teams have drawn up a detailed roadmap of cooperation, so we will be approving that today, and I think that will give a very clear pathway to our activities ahead,' said S. Jaishankar",
    "src": "The Hindu",
    "utc": "22 NOV 2026 02:58 +0530"
+  },
+  {
+   "who": "OCEANIA",
+   "kicker": "NEWS",
+   "title": "Last sitting week of year turns into one WA government may prefer to forget",
+   "summary": "Mounting questions about a Labor MP's financial affairs and confusion about whose job it is to check politicians' declarations to parliament, dominate the last sitting week of parliament.",
+   "src": "ABC (Australia)",
+   "utc": "22 NOV 2026 00:02 +0000"
+  },
+  {
+   "who": "AMERICAS",
+   "kicker": "NEWS",
+   "title": "California train burglars carefully executed heists for ‘staggering' $22m haul",
+   "summary": "US justice department brings charges against group after at least 36 trains burglarized for shoes and tools Fourteen people in southern California have been accused of burglarizing more than $22m…",
+   "src": "The Guardian",
+   "utc": "22 NOV 2026 00:20 GMT"
   }
  ],
  "briefs": [

@@ -307,14 +307,19 @@ def main():
     p.hline(y - 4, w=1)
 
     # --- bottom band: the map, grown to meet the footer so the page is not
-    # left with a dead quarter, and the digest or tally beside it.
+    # left with a dead quarter, and the digest or tally beside it. The band
+    # gives the digest the height its own copy needs, and the map then takes
+    # whatever height is left, so a long digest shortens the map instead of
+    # running into the footer.
     y += 8
     has_digest = bool(data.get("briefs"))
     mw = 378.0 if has_digest else 560.0
     floor = H - 30                     # the footer rule sits at H-24
-    mh = floor - (y + 13)
-    if mh < 120:
-        raise SystemExit(f"layout: only {mh:.0f}px left for the map")
+    band_top = y + 13
+    band_h = floor - band_top
+    if band_h < 120:
+        raise SystemExit(f"layout: only {band_h:.1f}px left for the bottom band")
+    mh = band_h
     pins = {}
     for n, item in enumerate(leads + cards, 1):
         at = pin_for(item)
@@ -360,18 +365,24 @@ def main():
         cols.append(cur)
         # Fit honestly: if the briefs cannot all be set in the band, set the ones
         # that fit and say on the page how many more were filed. A silent clip
-        # would be a lie about the day's extent.
+        # would be a lie about the day's extent. The "and N more" line is part of
+        # the measurement, not an afterthought: adding it after fitting is what
+        # pushed a column past the footer once.
         shown_max = len(blocks)
-        while shown_max > 1:
+        omitted = 0
+        while shown_max >= 0:
             trial = _balance(blocks[:shown_max], ncol, half)
-            h = max(_height(c) for c in trial)
-            if h <= mh:
+            if omitted:
+                trial[-1] = trial[-1] + [(f"AND {omitted} MORE FILED", [], "", 12.0)]
+            if max(_height(c) for c in trial) <= mh:
                 break
+            if shown_max == 0:
+                raise SystemExit("layout: not even one brief fits the band")
             shown_max -= 1
-        omitted = len(blocks) - shown_max
+            omitted = len(blocks) - shown_max
         cols = _balance(blocks[:shown_max], ncol, half)
         if omitted:
-            cols[-1].append((f"and {omitted} more filed{'':s} on the day", [], "", 12.0))
+            cols[-1] = cols[-1] + [(f"AND {omitted} MORE FILED", [], "", 12.0)]
         last_bottom = {}
         for c, col in enumerate(cols[:ncol]):
             x = bx + c * (colw + gap)
