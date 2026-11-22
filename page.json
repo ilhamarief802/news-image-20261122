@@ -13,38 +13,30 @@
    "utc": "22 NOV 2026 02:19 +0530"
   },
   {
-   "who": "MIDDLE EAST",
-   "kicker": "CONFLICT",
-   "title": "Bahrain says Iranian attack hits industrial facility as air defences intercept attacks",
-   "summary": "The incidents were the latest escalation of regional hostilities since the US and Israel attacked Iran in February.",
-   "src": "CNA",
-   "utc": "22 NOV 2026 08:47 +0800"
+   "who": "OCEANIA",
+   "kicker": "NEWS",
+   "title": "Parents urge driver to 'take responsibility' after son's hit and run death",
+   "summary": "The family of Joshua Howard have held back tears in appealing to find the driver who struck their son earlier this month.",
+   "src": "ABC (Australia)",
+   "utc": "22 NOV 2026 02:31 +0000"
   },
   {
-   "who": "AFRICA",
-   "kicker": "NEWS",
-   "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
-   "summary": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
-   "src": "BBC World",
-   "utc": "22 NOV 2026 00:10 GMT"
+   "who": "WORLD",
+   "kicker": "CONFLICT",
+   "title": "Man found dead on Flinders Island believed to have been shot by officer, police say",
+   "summary": "The sergeant, who was shot, fired his weapon a number of times after alleged ‘targeted' attack outside island's police station Get our breaking news email , free app or daily news podcast A police…",
+   "src": "The Guardian",
+   "utc": "22 NOV 2026 02:44 GMT"
   }
  ],
  "cards": [
   {
-   "who": "OCEANIA",
-   "kicker": "SPORT",
-   "title": "Victorian Greens win injunction over how-to-vote cards mimicking party's branding but…",
-   "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan's cards instructed people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The…",
-   "src": "The Guardian",
-   "utc": "22 NOV 2026 02:08 GMT"
-  },
-  {
-   "who": "WORLD",
-   "kicker": "DIPLOMACY",
-   "title": "India, Bulgaria discuss bilateral ties, IMEC, Black Sea situation",
-   "summary": "‘Our teams have drawn up a detailed roadmap of cooperation, so we will be approving that today, and I think that will give a very clear pathway to our activities ahead,' said S. Jaishankar",
-   "src": "The Hindu",
-   "utc": "22 NOV 2026 02:58 +0530"
+   "who": "AFRICA",
+   "kicker": "CONFLICT",
+   "title": "Overturned boat carrying mourners to funeral kills at least 24 in Nigeria",
+   "summary": "Police say the boat driver fled and the vessel's manager was taken into custody.",
+   "src": "Al Jazeera",
+   "utc": "22 NOV 2026 02:45 +0000"
   },
   {
    "who": "EUROPE",
@@ -55,6 +47,22 @@
    "utc": "22 NOV 2026 00:43 GMT"
   },
   {
+   "who": "AFRICA",
+   "kicker": "NEWS",
+   "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+   "summary": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
+   "src": "BBC World",
+   "utc": "22 NOV 2026 00:10 GMT"
+  },
+  {
+   "who": "OCEANIA",
+   "kicker": "SPORT",
+   "title": "Victorian Greens win injunction over how-to-vote cards mimicking party's branding but…",
+   "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan's cards instructed people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The…",
+   "src": "The Guardian",
+   "utc": "22 NOV 2026 02:08 GMT"
+  },
+  {
    "who": "OCEANIA",
    "kicker": "JUSTICE",
    "title": "Greens win court fight against Prahran independent how to-vote-cards",
@@ -63,38 +71,15 @@
    "utc": "22 NOV 2026 02:12 +0000"
   },
   {
-   "who": "AMERICAS",
-   "kicker": "NEWS",
-   "title": "California train burglars carefully executed heists for ‘staggering' $22m haul",
-   "summary": "US justice department brings charges against group after at least 36 trains burglarized for shoes and tools Fourteen people in southern California have been accused of burglarizing more than $22m…",
-   "src": "The Guardian",
-   "utc": "22 NOV 2026 00:20 GMT"
-  },
-  {
    "who": "WORLD",
-   "kicker": "SPORT",
-   "title": "Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic…",
-   "summary": "Controversial figure frequently took positions against drug use, abortion and homosexuality, but in later years supported legislation expunging homosexual convictions Get our daily political email …",
-   "src": "The Guardian",
-   "utc": "22 NOV 2026 00:26 GMT"
+   "kicker": "DIPLOMACY",
+   "title": "India, Bulgaria discuss bilateral ties, IMEC, Black Sea situation",
+   "summary": "‘Our teams have drawn up a detailed roadmap of cooperation, so we will be approving that today, and I think that will give a very clear pathway to our activities ahead,' said S. Jaishankar",
+   "src": "The Hindu",
+   "utc": "22 NOV 2026 02:58 +0530"
   }
  ],
  "briefs": [
-  [
-   "Oceania",
-   "Allegedly stolen car crashes into NT Police housing, 12yo boy among arrests",
-   "ABC (Australia)"
-  ],
-  [
-   "Oceania",
-   "30,000-hectare carbon forestry project shoots up on remote island",
-   "ABC (Australia)"
-  ],
-  [
-   "Europe",
-   "Thousands march in Lisbon as living costs fuel anger",
-   "The Hindu"
-  ],
   [
    "Oceania",
    "Roast chicken sales scrutinised as Coles appeals ACCC's ban on outback store",
@@ -121,14 +106,29 @@
    "ABC (Australia)"
   ],
   [
-   "Middle East",
-   "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
-   "Al Jazeera"
-  ],
-  [
    "Oceania",
    "Government launches inquiry into peptides amid surge in hospital visits",
    "ABC (Australia)"
+  ],
+  [
+   "Oceania",
+   "Parents urge driver to 'take responsibility' after son's hit and run death",
+   "ABC (Australia)"
+  ],
+  [
+   "Americas",
+   "Mexico captures drug kingpin on FBI's most wanted list",
+   "CNA"
+  ],
+  [
+   "World",
+   "Man found dead on Flinders Island believed to have been shot by officer…",
+   "The Guardian"
+  ],
+  [
+   "Africa",
+   "Overturned boat carrying mourners to funeral kills at least 24 in Nigeria",
+   "Al Jazeera"
   ]
  ]
 }
