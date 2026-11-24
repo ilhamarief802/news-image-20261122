@@ -5,130 +5,130 @@
  "strap": "The day's verified stories, each with the desk that filed it and the exact time that desk stamped on the story. Nothing before the day, nothing invented.",
  "leads": [
   {
-   "who": "AMERICAS",
+   "who": "MIDDLE EAST",
    "kicker": "CONFLICT",
-   "title": "11 killed in burst of violence in northern Mexico after capture of cartel leader Meza Flores",
-   "summary": "Flores climbed the cartel ranks to lead the Beltrán-Leyva cartel and later became the leader of his own group, the Meza-Flores Transnational Criminal Organisation",
+   "title": "Saudi-led coalition says it intercepted Houthi missile in western region",
+   "summary": "Saudi Arabia's western region contains key energy infrastructure including the Yanbu terminal, a major facility for crude oil exports",
    "src": "The Hindu",
-   "utc": "22 NOV 2026 02:19 +0530"
-  },
-  {
-   "who": "OCEANIA",
-   "kicker": "NEWS",
-   "title": "Parents urge driver to 'take responsibility' after son's hit and run death",
-   "summary": "The family of Joshua Howard have held back tears in appealing to find the driver who struck their son earlier this month.",
-   "src": "ABC (Australia)",
-   "utc": "22 NOV 2026 02:31 +0000"
+   "utc": "22 NOV 2026 15:14 +0530"
   },
   {
    "who": "WORLD",
-   "kicker": "CONFLICT",
-   "title": "Man found dead on Flinders Island believed to have been shot by officer, police say",
-   "summary": "The sergeant, who was shot, fired his weapon a number of times after alleged ‘targeted' attack outside island's police station Get our breaking news email , free app or daily news podcast A police…",
-   "src": "The Guardian",
-   "utc": "22 NOV 2026 02:44 GMT"
+   "kicker": "CLIMATE",
+   "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
+   "summary": "The UN COP31 meeting in Turkey enters a second day of overtime as countries struggle to reach an agreement.",
+   "src": "BBC Science",
+   "utc": "22 NOV 2026 06:54 GMT"
+  },
+  {
+   "who": "ASIA",
+   "kicker": "JUSTICE",
+   "title": "Indian-origin man detained in Texas after serving sentence for visual recording conviction",
+   "summary": "Raghul Anandakrishnan's custody has been assumed from a Texas county jail, U.S. Immigration and Customs Enforcement (ICE) said in a post on November 22",
+   "src": "The Hindu",
+   "utc": "22 NOV 2026 13:02 +0530"
   }
  ],
  "cards": [
   {
    "who": "AFRICA",
-   "kicker": "CONFLICT",
-   "title": "Overturned boat carrying mourners to funeral kills at least 24 in Nigeria",
-   "summary": "Police say the boat driver fled and the vessel's manager was taken into custody.",
-   "src": "Al Jazeera",
-   "utc": "22 NOV 2026 02:45 +0000"
+   "kicker": "NEWS",
+   "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+   "summary": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
+   "src": "BBC Africa",
+   "utc": "22 NOV 2026 00:10 GMT"
+  },
+  {
+   "who": "AMERICAS",
+   "kicker": "NEWS",
+   "title": "California train burglars carefully executed heists for ‘staggering' $22m haul",
+   "summary": "US justice department brings charges against group after at least 36 trains burglarized for shoes and tools Fourteen people in southern California have been accused of burglarizing more than $22m…",
+   "src": "The Guardian",
+   "utc": "22 NOV 2026 00:20 GMT"
   },
   {
    "who": "EUROPE",
    "kicker": "NEWS",
-   "title": "The Papers: Kate's 'road to recovery' and 'Brave princess'",
-   "summary": "Catherine, Princess of Wales is pictured on several front pages following news of her new documentary.",
-   "src": "BBC UK",
-   "utc": "22 NOV 2026 00:43 GMT"
-  },
-  {
-   "who": "AFRICA",
-   "kicker": "NEWS",
-   "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
-   "summary": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
-   "src": "BBC World",
-   "utc": "22 NOV 2026 00:10 GMT"
-  },
-  {
-   "who": "OCEANIA",
-   "kicker": "SPORT",
-   "title": "Victorian Greens win injunction over how-to-vote cards mimicking party's branding but…",
-   "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan's cards instructed people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The…",
+   "title": "Revealed: profiles of UK experts on gambling harm being hijacked to push illegal online…",
+   "summary": "Findings highlight unscrupulous tactics used by operators in multibillion pound illicit market and challenges facing authorities Prof Heather Wardle has dedicated 20 years to researching the harm…",
    "src": "The Guardian",
-   "utc": "22 NOV 2026 02:08 GMT"
+   "utc": "22 NOV 2026 08:00 GMT"
   },
   {
-   "who": "OCEANIA",
-   "kicker": "JUSTICE",
-   "title": "Greens win court fight against Prahran independent how to-vote-cards",
-   "summary": "The Greens took independent candidate Tosh-Jake Finnigan to the Supreme Court, arguing they were imitating the minor party's colours and font.",
-   "src": "ABC (Australia)",
-   "utc": "22 NOV 2026 02:12 +0000"
-  },
-  {
-   "who": "WORLD",
-   "kicker": "DIPLOMACY",
-   "title": "India, Bulgaria discuss bilateral ties, IMEC, Black Sea situation",
-   "summary": "‘Our teams have drawn up a detailed roadmap of cooperation, so we will be approving that today, and I think that will give a very clear pathway to our activities ahead,' said S. Jaishankar",
+   "who": "MIDDLE EAST",
+   "kicker": "CONFLICT",
+   "title": "Iraq fire at Basra power station kills at least four, injures 30",
+   "summary": "Civil defence ‌teams brought the fire at the Hartha ‌power station north of Basra ‌under ⁠control after firefighters responded ⁠to the incident, says Iraq's state news agency",
    "src": "The Hindu",
-   "utc": "22 NOV 2026 02:58 +0530"
+   "utc": "22 NOV 2026 13:04 +0530"
+  },
+  {
+   "who": "ASIA",
+   "kicker": "CLIMATE",
+   "title": "South Korea Education Minister resigns amid AI cheating scandal",
+   "summary": "The country has been gripped by fears of AI-assisted exam cheating since last Sunday (November 15, 2026), when the top scorer in a national tax accountant exam confessed to using a miniature camera…",
+   "src": "The Hindu",
+   "utc": "22 NOV 2026 12:43 +0530"
+  },
+  {
+   "who": "ASIA",
+   "kicker": "CLIMATE",
+   "title": "South Korea education minister resigns over exam cheating scandal",
+   "summary": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos.",
+   "src": "BBC Asia",
+   "utc": "22 NOV 2026 09:20 GMT"
   }
  ],
  "briefs": [
   [
-   "Oceania",
-   "Roast chicken sales scrutinised as Coles appeals ACCC's ban on outback store",
-   "ABC (Australia)"
+   "World",
+   "MP criticises company ownership register plans",
+   "bbc_pol"
   ],
   [
-   "Oceania",
-   "Piastri third, snaps at McLaren team, in Vegas GP with 352 overtakes",
-   "ABC (Australia)"
+   "Asia",
+   "Indian-origin man detained in Texas after serving sentence for visual…",
+   "The Hindu"
   ],
   [
-   "Oceania",
-   "Victorian Greens win injunction over how-to-vote cards mimicking party's…",
-   "The Guardian"
+   "Middle East",
+   "Iraq fire at Basra power station kills at least four, injures 30",
+   "The Hindu"
   ],
   [
    "Europe",
-   "Wallabies coach Kiss lauds defensive effort after win over Wales",
-   "CNA"
-  ],
-  [
-   "Oceania",
-   "Greens win court fight against Prahran independent how to-vote-cards",
-   "ABC (Australia)"
-  ],
-  [
-   "Oceania",
-   "Government launches inquiry into peptides amid surge in hospital visits",
-   "ABC (Australia)"
-  ],
-  [
-   "Oceania",
-   "Parents urge driver to 'take responsibility' after son's hit and run death",
-   "ABC (Australia)"
-  ],
-  [
-   "Americas",
-   "Mexico captures drug kingpin on FBI's most wanted list",
-   "CNA"
-  ],
-  [
-   "World",
-   "Man found dead on Flinders Island believed to have been shot by officer…",
+   "Revealed: profiles of UK experts on gambling harm being hijacked to push…",
    "The Guardian"
   ],
   [
-   "Africa",
-   "Overturned boat carrying mourners to funeral kills at least 24 in Nigeria",
-   "Al Jazeera"
+   "World",
+   "Bank of England directors illegally profited from post-abolition enslavement…",
+   "The Guardian"
+  ],
+  [
+   "Americas",
+   "Why the U.S. midterms might have ended JD Vance's presidential hopes",
+   "CBC"
+  ],
+  [
+   "Asia",
+   "Indian opposition party's youth wing warns of more Meta protests after police…",
+   "The Guardian"
+  ],
+  [
+   "Asia",
+   "South Korea education minister resigns over exam cheating scandal",
+   "BBC Asia"
+  ],
+  [
+   "Middle East",
+   "Saudi-led coalition says it intercepted Houthi missile in western region",
+   "The Hindu"
+  ],
+  [
+   "World",
+   "A truism for our political leaders: until work again involves respect and…",
+   "The Guardian"
   ]
  ]
 }
