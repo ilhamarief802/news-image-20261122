@@ -5,14 +5,6 @@
  "strap": "The day's verified stories, each with the desk that filed it and the exact time that desk stamped on the story. Nothing before the day, nothing invented.",
  "leads": [
   {
-   "who": "MIDDLE EAST",
-   "kicker": "CONFLICT",
-   "title": "Saudi-led coalition says it intercepted Houthi missile in western region",
-   "summary": "Saudi Arabia's western region contains key energy infrastructure including the Yanbu terminal, a major facility for crude oil exports",
-   "src": "The Hindu",
-   "utc": "22 NOV 2026 15:14 +0530"
-  },
-  {
    "who": "WORLD",
    "kicker": "CLIMATE",
    "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
@@ -21,54 +13,12 @@
    "utc": "22 NOV 2026 06:54 GMT"
   },
   {
-   "who": "ASIA",
-   "kicker": "JUSTICE",
-   "title": "Indian-origin man detained in Texas after serving sentence for visual recording conviction",
-   "summary": "Raghul Anandakrishnan's custody has been assumed from a Texas county jail, U.S. Immigration and Customs Enforcement (ICE) said in a post on November 22",
-   "src": "The Hindu",
-   "utc": "22 NOV 2026 13:02 +0530"
-  }
- ],
- "cards": [
-  {
    "who": "AFRICA",
    "kicker": "NEWS",
    "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
    "summary": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
    "src": "BBC Africa",
    "utc": "22 NOV 2026 00:10 GMT"
-  },
-  {
-   "who": "AMERICAS",
-   "kicker": "NEWS",
-   "title": "California train burglars carefully executed heists for ‘staggering' $22m haul",
-   "summary": "US justice department brings charges against group after at least 36 trains burglarized for shoes and tools Fourteen people in southern California have been accused of burglarizing more than $22m…",
-   "src": "The Guardian",
-   "utc": "22 NOV 2026 00:20 GMT"
-  },
-  {
-   "who": "EUROPE",
-   "kicker": "NEWS",
-   "title": "Revealed: profiles of UK experts on gambling harm being hijacked to push illegal online…",
-   "summary": "Findings highlight unscrupulous tactics used by operators in multibillion pound illicit market and challenges facing authorities Prof Heather Wardle has dedicated 20 years to researching the harm…",
-   "src": "The Guardian",
-   "utc": "22 NOV 2026 08:00 GMT"
-  },
-  {
-   "who": "MIDDLE EAST",
-   "kicker": "CONFLICT",
-   "title": "Iraq fire at Basra power station kills at least four, injures 30",
-   "summary": "Civil defence ‌teams brought the fire at the Hartha ‌power station north of Basra ‌under ⁠control after firefighters responded ⁠to the incident, says Iraq's state news agency",
-   "src": "The Hindu",
-   "utc": "22 NOV 2026 13:04 +0530"
-  },
-  {
-   "who": "ASIA",
-   "kicker": "CLIMATE",
-   "title": "South Korea Education Minister resigns amid AI cheating scandal",
-   "summary": "The country has been gripped by fears of AI-assisted exam cheating since last Sunday (November 15, 2026), when the top scorer in a national tax accountant exam confessed to using a miniature camera…",
-   "src": "The Hindu",
-   "utc": "22 NOV 2026 12:43 +0530"
   },
   {
    "who": "ASIA",
@@ -79,27 +29,57 @@
    "utc": "22 NOV 2026 09:20 GMT"
   }
  ],
+ "cards": [
+  {
+   "who": "EUROPE",
+   "kicker": "NEWS",
+   "title": "Revealed: profiles of UK experts on gambling harm being hijacked to push illegal online…",
+   "summary": "Findings highlight unscrupulous tactics used by operators in multibillion pound illicit market and challenges facing authorities Prof Heather Wardle has dedicated 20 years to researching the harm…",
+   "src": "The Guardian",
+   "utc": "22 NOV 2026 08:00 GMT"
+  },
+  {
+   "who": "AMERICAS",
+   "kicker": "DIPLOMACY",
+   "title": "Why the U.S. midterms might have ended JD Vance's presidential hopes",
+   "summary": "Vice-President JD Vance's presidential ambitions for 2028 could be among the more significant political casualties of the Democratic blue wave in this month's midterm elections.",
+   "src": "CBC",
+   "utc": "22 NOV 2026 04:00 EST"
+  },
+  {
+   "who": "WORLD",
+   "kicker": "NEWS",
+   "title": "Hundreds of applications, no replies: Inside the job ghosting problem‌",
+   "summary": "People say they often hear nothing back after applying for jobs. But could employers be forced to respond to every applicant?",
+   "src": "BBC Business",
+   "utc": "22 NOV 2026 00:04 GMT"
+  },
+  {
+   "who": "WORLD",
+   "kicker": "NEWS",
+   "title": "‘Serious error of judgment': outrage over military AI event at Berlin arts complex",
+   "summary": "Kraftwerk Berlin, part of same development as techno club Tresor, transformed into ‘war room' for arms firm event With their cavernous post-industrial venues, teeth-grinding four-by-four beats and…",
+   "src": "guard_tech",
+   "utc": "22 NOV 2026 06:00 GMT"
+  },
+  {
+   "who": "WORLD",
+   "kicker": "NEWS",
+   "title": "'Move on!' Former PMs pile in with advice for Andy Burnham, but will he listen?",
+   "summary": "Theresa May, David Cameron and Tony Blair have weighed in on Burnham's plans on moving closer to the EU, but the prime minister's message itself is not very precise.",
+   "src": "bbc_pol",
+   "utc": "22 NOV 2026 06:01 GMT"
+  },
+  {
+   "who": "WORLD",
+   "kicker": "DIPLOMACY",
+   "title": "Unreal deals: the scam websites targeting Black Friday bargain hunters",
+   "summary": "AI is being used to clone retailers' sites and ‘poison' chatbots into recommending them, experts say Black Friday is coming so you search online for the coat you have been after in the hope you can…",
+   "src": "The Guardian",
+   "utc": "22 NOV 2026 07:00 GMT"
+  }
+ ],
  "briefs": [
-  [
-   "World",
-   "MP criticises company ownership register plans",
-   "bbc_pol"
-  ],
-  [
-   "Asia",
-   "Indian-origin man detained in Texas after serving sentence for visual…",
-   "The Hindu"
-  ],
-  [
-   "Middle East",
-   "Iraq fire at Basra power station kills at least four, injures 30",
-   "The Hindu"
-  ],
-  [
-   "Europe",
-   "Revealed: profiles of UK experts on gambling harm being hijacked to push…",
-   "The Guardian"
-  ],
   [
    "World",
    "Bank of England directors illegally profited from post-abolition enslavement…",
@@ -121,13 +101,33 @@
    "BBC Asia"
   ],
   [
-   "Middle East",
-   "Saudi-led coalition says it intercepted Houthi missile in western region",
-   "The Hindu"
+   "World",
+   "A truism for our political leaders: until work again involves respect and…",
+   "The Guardian"
+  ],
+  [
+   "Europe",
+   "UK-EU food deal hailed by British firms: ‘We're pretty aligned anyway'",
+   "The Guardian"
   ],
   [
    "World",
-   "A truism for our political leaders: until work again involves respect and…",
+   "Howard Lutnick has been Trump's ally for decades. His ties to Nvidia may…",
+   "guard_tech"
+  ],
+  [
+   "Europe",
+   "The looming UK winter may spawn a double headache for Andy Burnham | Richard…",
+   "The Guardian"
+  ],
+  [
+   "Europe",
+   "Theresa May 'aghast' at Burnham's EU plans and says 'Brexit is done'",
+   "BBC UK"
+  ],
+  [
+   "Europe",
+   "Cloned number plate victims in England and Wales to get new reporting tool",
    "The Guardian"
   ]
  ]
